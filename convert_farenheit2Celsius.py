@@ -1,0 +1,5 @@
+print("Enter a Farenheit Temprature:")
+val_far = input()
+var = float(val_far)
+var_cel = ((5/9)*(var-32))
+print("The Temperature {} in fahrenheit is equivalent in Celsius as {}".format(var , var_cel))

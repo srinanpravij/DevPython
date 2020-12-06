@@ -1,0 +1,13 @@
+s = "Hello World"
+print(s)
+print(s[0])
+print(s[2:5])
+print(s[3:])
+print(s+" Everyone!")
+message = s.upper()
+print(message)
+new_message = s.replace("l", "r")
+print(new_message)
+print(len(new_message))
+split_mess = s.split(' ')
+print(split_mess)
